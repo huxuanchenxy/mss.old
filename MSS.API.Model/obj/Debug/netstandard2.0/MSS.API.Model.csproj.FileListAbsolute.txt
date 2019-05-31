@@ -1,0 +1,8 @@
+D:\fiyoung\project\mss\source\MSS\MSS.API.Model\bin\Debug\netstandard2.0\MSS.API.Model.deps.json
+D:\fiyoung\project\mss\source\MSS\MSS.API.Model\bin\Debug\netstandard2.0\MSS.API.Model.dll
+D:\fiyoung\project\mss\source\MSS\MSS.API.Model\bin\Debug\netstandard2.0\MSS.API.Model.pdb
+D:\fiyoung\project\mss\source\MSS\MSS.API.Model\obj\Debug\netstandard2.0\MSS.API.Model.csproj.CoreCompileInputs.cache
+D:\fiyoung\project\mss\source\MSS\MSS.API.Model\obj\Debug\netstandard2.0\MSS.API.Model.AssemblyInfoInputs.cache
+D:\fiyoung\project\mss\source\MSS\MSS.API.Model\obj\Debug\netstandard2.0\MSS.API.Model.AssemblyInfo.cs
+D:\fiyoung\project\mss\source\MSS\MSS.API.Model\obj\Debug\netstandard2.0\MSS.API.Model.dll
+D:\fiyoung\project\mss\source\MSS\MSS.API.Model\obj\Debug\netstandard2.0\MSS.API.Model.pdb
