@@ -45,9 +45,10 @@ namespace MSS.API.Ids
                      ClientSecrets={new Secret("secret".Sha256())},
                      RefreshTokenUsage = TokenUsage.ReUse,
                      RefreshTokenExpiration = TokenExpiration.Absolute,
-                     AlwaysIncludeUserClaimsInIdToken = true,
-                     AccessTokenLifetime = 3600,
+                     //AlwaysIncludeUserClaimsInIdToken = true,
+                     AccessTokenLifetime = 60,
                      AllowOfflineAccess = true,
+                     //AbsoluteRefreshTokenLifetime = 120,
                      AllowedScopes={ "MSS_WEBAPI" }
                 },
 

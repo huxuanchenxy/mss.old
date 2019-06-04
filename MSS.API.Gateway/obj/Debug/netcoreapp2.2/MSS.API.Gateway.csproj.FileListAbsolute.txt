@@ -27,3 +27,5 @@ D:\fiyoung\project\mss\source\MSS\MSS.API.Gateway\obj\Debug\netcoreapp2.2\MSS.AP
 D:\fiyoung\project\mss\source\MSS\MSS.API.Gateway\obj\Debug\netcoreapp2.2\MSS.API.Gateway.dll
 D:\fiyoung\project\mss\source\MSS\MSS.API.Gateway\obj\Debug\netcoreapp2.2\MSS.API.Gateway.pdb
 D:\fiyoung\project\mss\source\MSS\MSS.API.Gateway\obj\Debug\netcoreapp2.2\MSS.API.Gateway.csproj.CopyComplete
+D:\fiyoung\project\mss\source\MSS\MSS.API.Gateway\bin\Debug\netcoreapp2.2\configuration.json
+D:\fiyoung\project\mss\source\MSS\MSS.API.Gateway\obj\Debug\netcoreapp2.2\MSS.API.Gateway.csprojAssemblyReference.cache

@@ -8,6 +8,8 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Ocelot.DependencyInjection;
+using Ocelot.Middleware;
 
 namespace MSS.API.Gateway
 {
@@ -30,7 +32,7 @@ namespace MSS.API.Gateway
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
-
+            services.AddOcelot(Configuration);
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }
 
@@ -46,10 +48,10 @@ namespace MSS.API.Gateway
                 app.UseExceptionHandler("/Error");
             }
 
-            app.UseStaticFiles();
-            app.UseCookiePolicy();
-
-            app.UseMvc();
+            //app.UseStaticFiles();
+            //app.UseCookiePolicy();
+            app.UseOcelot();
+            //app.UseMvc();
         }
     }
 }

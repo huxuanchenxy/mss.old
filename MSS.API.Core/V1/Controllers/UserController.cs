@@ -24,13 +24,15 @@ namespace MSS.API.Core.V1.Controllers
 
         }
         // GET api/values
-        [HttpGet]
-        //[Authorize(Roles ="admin")]
-        public ActionResult<IEnumerable<string>> Get()
+        [HttpGet,Route("GetUserInfo")]
+        //[Authorize]
+        public ActionResult<IEnumerable<string>> GetUserInfo()
         {
             var resp = _userService.FindUser(1);
             return new string[] { "value11111", "value222223333"};
         }
+
+
 
         // GET api/values/5
         [HttpGet("{id}")]
