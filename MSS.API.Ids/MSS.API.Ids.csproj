@@ -10,6 +10,12 @@
     <PackageReference Include="IdentityServer4" Version="2.4.0" />
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MSS.API.Dao\MSS.API.Dao.csproj" />
+    <ProjectReference Include="..\MSS.API.Model\MSS.API.Model.csproj" />
   </ItemGroup>
 
 </Project>

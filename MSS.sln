@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MSS.API.Model", "MSS.API.Mo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MSS.API.Dao", "MSS.API.Dao\MSS.API.Dao.csproj", "{0CF1EEC1-1762-4276-AAF4-F8C7B953EE50}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSS.API.Gateway", "MSS.API.Gateway\MSS.API.Gateway.csproj", "{C2BFFC9A-849D-42A2-A062-6C73E2B9D38D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MSS.API.Gateway", "MSS.API.Gateway\MSS.API.Gateway.csproj", "{C2BFFC9A-849D-42A2-A062-6C73E2B9D38D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rijndael256", "Rijndael256\Rijndael256.csproj", "{876F5FF9-FEF1-4F4D-B5BD-14777B6BB448}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{C2BFFC9A-849D-42A2-A062-6C73E2B9D38D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C2BFFC9A-849D-42A2-A062-6C73E2B9D38D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C2BFFC9A-849D-42A2-A062-6C73E2B9D38D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{876F5FF9-FEF1-4F4D-B5BD-14777B6BB448}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{876F5FF9-FEF1-4F4D-B5BD-14777B6BB448}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{876F5FF9-FEF1-4F4D-B5BD-14777B6BB448}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{876F5FF9-FEF1-4F4D-B5BD-14777B6BB448}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

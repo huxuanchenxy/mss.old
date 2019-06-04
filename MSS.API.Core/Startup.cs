@@ -49,7 +49,7 @@ namespace MSS.API.Core
                 Options.Authority = "http://localhost:5000";//授权服务器地址
                 Options.RequireHttpsMetadata = false;//是否是https
                 Options.JwtValidationClockSkew = TimeSpan.FromSeconds(0);//设置时间偏移
-                Options.ApiName = "MSS_WEBAPI";
+                Options.ApiName = "MssService";
             });
             //跨域 Cors
             services.AddCors(options =>

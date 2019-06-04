@@ -1,0 +1,32 @@
+﻿{
+  "ReRoutes": [
+    {
+      "DownstreamPathTemplate": "/api/v1/User/{url}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 3851
+        }
+      ],
+      "UpstreamPathTemplate": "/api/User/{url}",
+      "UpstreamHttpMethod": [ "Get", "Post" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "MssServiceKey",
+        "AllowedScopes": []
+      },
+      "ReRoutesCaseSensitive": false // non case sensitive
+    }
+
+  ]
+  ,
+
+  "GlobalConfiguration": {
+
+    "ServiceDiscoveryProvider": {
+      "Host": "localhost",
+      "Port": 5800
+    }
+
+  }
+}

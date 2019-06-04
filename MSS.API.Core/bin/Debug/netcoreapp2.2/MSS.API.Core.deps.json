@@ -203,7 +203,8 @@
           "Microsoft.Extensions.Configuration.Abstractions": "2.2.0",
           "Microsoft.Extensions.Configuration.Binder": "2.2.4",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "2.2.0",
-          "MySql.Data": "8.0.16"
+          "MySql.Data": "8.0.16",
+          "Rijndael256": "1.0.0"
         },
         "runtime": {
           "MSS.API.Dao.dll": {}
@@ -218,6 +219,14 @@
         },
         "compile": {
           "MSS.API.Model.dll": {}
+        }
+      },
+      "Rijndael256/1.0.0": {
+        "runtime": {
+          "Rijndael256.dll": {}
+        },
+        "compile": {
+          "Rijndael256.dll": {}
         }
       },
       "Microsoft.AspNet.WebApi.Client/5.2.6": {
@@ -3492,6 +3501,11 @@
       "sha512": ""
     },
     "MSS.API.Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Rijndael256/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

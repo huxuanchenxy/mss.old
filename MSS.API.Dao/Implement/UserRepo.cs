@@ -6,6 +6,7 @@ using MSS.API.Dao;
 using MSS.API.Model.Data;
 using System.Threading.Tasks;
 using Dapper;
+using Rijndael256;
 
 namespace MSS.API.Dao.Implement
 {
@@ -18,6 +19,26 @@ namespace MSS.API.Dao.Implement
             {
                 var result = await c.QueryFirstOrDefaultAsync<User>(" SELECT * FROM User WHERE id = @Id ", new { Id = Id });
                 return result;
+            });
+        }
+
+        public async Task<User> IsValid(string clientId, string Password)
+        {
+
+            return await WithConnection(async c => {
+
+
+                //var user = await c.QueryFirstOrDefaultAsync<User>("select * from ApiUser where ClientId=@ClientId", new { clientId = clientId });
+                var user = await c.QueryFirstOrDefaultAsync<User>(" SELECT * FROM User WHERE id = @Id ", new { Id = 1 });
+                if (user == null)
+                    return null;
+
+                //var pwd_decypt = Rijndael.Decrypt(user.Password, user.Salt, KeySize.Aes256);
+                //var isvalid = pwd_decypt == Password;
+                //if (isvalid)
+                    return user;
+                //return null;
+
             });
         }
     }

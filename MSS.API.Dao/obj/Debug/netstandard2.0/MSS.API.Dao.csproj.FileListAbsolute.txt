@@ -10,3 +10,5 @@ D:\fiyoung\project\mss\source\MSS\MSS.API.Dao\obj\Debug\netstandard2.0\MSS.API.D
 D:\fiyoung\project\mss\source\MSS\MSS.API.Dao\bin\Debug\netstandard2.0\MSS.API.Dao.pdb
 D:\fiyoung\project\mss\source\MSS\MSS.API.Dao\obj\Debug\netstandard2.0\MSS.API.Dao.dll
 D:\fiyoung\project\mss\source\MSS\MSS.API.Dao\obj\Debug\netstandard2.0\MSS.API.Dao.pdb
+D:\fiyoung\project\mss\source\MSS\MSS.API.Dao\bin\Debug\netstandard2.0\Rijndael256.dll
+D:\fiyoung\project\mss\source\MSS\MSS.API.Dao\bin\Debug\netstandard2.0\Rijndael256.pdb

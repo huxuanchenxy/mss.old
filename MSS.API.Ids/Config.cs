@@ -13,7 +13,7 @@ namespace MSS.API.Ids
         public static IEnumerable<ApiResource> GetApiResources() //api
         {
             return new List<ApiResource>(){
-                new ApiResource("MSS_WEBAPI","my api")
+                new ApiResource("MssService","MSS.API.Core")
             };
         }
 
@@ -36,7 +36,7 @@ namespace MSS.API.Ids
                     //客户端模式
                      AllowedGrantTypes=GrantTypes.ClientCredentials,
                      ClientSecrets={new Secret("secret".Sha256())},
-                     AllowedScopes={ "MSS_WEBAPI" }
+                     AllowedScopes={ "MssService" }
                 },
                 new Client(){
                     ClientId="pwdClient",
@@ -49,7 +49,7 @@ namespace MSS.API.Ids
                      AccessTokenLifetime = 60,
                      AllowOfflineAccess = true,
                      //AbsoluteRefreshTokenLifetime = 120,
-                     AllowedScopes={ "MSS_WEBAPI" }
+                     AllowedScopes={ "MssService" }
                 },
 
 

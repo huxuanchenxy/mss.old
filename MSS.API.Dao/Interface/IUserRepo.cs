@@ -9,5 +9,6 @@ namespace MSS.API.Dao.Interface
     public interface IUserRepo<T> where T:BaseEntity
     {
         Task<User> FindUser(int Id);
+        Task<User> IsValid(string clientId, string Password);
     }
 }

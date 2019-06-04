@@ -4569,7 +4569,8 @@
           "Microsoft.Extensions.Configuration.Abstractions": "2.2.0",
           "Microsoft.Extensions.Configuration.Binder": "2.2.4",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "2.2.0",
-          "MySql.Data": "8.0.16"
+          "MySql.Data": "8.0.16",
+          "Rijndael256": "1.0.0"
         },
         "compile": {
           "bin/placeholder/MSS.API.Dao.dll": {}
@@ -4586,6 +4587,16 @@
         },
         "runtime": {
           "bin/placeholder/MSS.API.Model.dll": {}
+        }
+      },
+      "Rijndael256/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Rijndael256.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Rijndael256.dll": {}
         }
       }
     }
@@ -12425,6 +12436,11 @@
       "type": "project",
       "path": "../MSS.API.Model/MSS.API.Model.csproj",
       "msbuildProject": "../MSS.API.Model/MSS.API.Model.csproj"
+    },
+    "Rijndael256/1.0.0": {
+      "type": "project",
+      "path": "../Rijndael256/Rijndael256.csproj",
+      "msbuildProject": "../Rijndael256/Rijndael256.csproj"
     }
   },
   "projectFileDependencyGroups": {

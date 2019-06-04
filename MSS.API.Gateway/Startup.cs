@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using IdentityServer4.AccessTokenValidation;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -31,6 +32,18 @@ namespace MSS.API.Gateway
                 options.CheckConsentNeeded = context => true;
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
+
+            Action<IdentityServerAuthenticationOptions> isaOptMss = option =>
+            {
+                option.Authority = Configuration["IdentityService:Uri"];
+                option.ApiName = "MssService";
+                option.RequireHttpsMetadata = Convert.ToBoolean(Configuration["IdentityService:UseHttps"]);
+                option.SupportedTokens = SupportedTokens.Both;
+                option.ApiSecret = Configuration["IdentityService:ApiSecrets:MssService"];
+            };
+
+            services.AddAuthentication()
+            .AddIdentityServerAuthentication("MssServiceKey", isaOptMss);
 
             services.AddOcelot(Configuration);
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
