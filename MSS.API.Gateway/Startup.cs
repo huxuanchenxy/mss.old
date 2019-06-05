@@ -40,10 +40,12 @@ namespace MSS.API.Gateway
                 option.RequireHttpsMetadata = Convert.ToBoolean(Configuration["IdentityService:UseHttps"]);
                 option.SupportedTokens = SupportedTokens.Both;
                 option.ApiSecret = Configuration["IdentityService:ApiSecrets:MssService"];
+                option.JwtValidationClockSkew = TimeSpan.FromSeconds(0);//…Ë÷√ ±º‰∆´“∆
             };
 
             services.AddAuthentication()
-            .AddIdentityServerAuthentication("MssServiceKey", isaOptMss);
+            .AddIdentityServerAuthentication("MssServiceKey", isaOptMss)
+            ;
 
             services.AddOcelot(Configuration);
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);

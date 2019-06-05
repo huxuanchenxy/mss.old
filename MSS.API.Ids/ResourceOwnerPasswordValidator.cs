@@ -32,6 +32,7 @@ namespace MSS.API.Ids
                 {
                     context.Result = new GrantValidationResult(
                      subject: context.UserName,
+                     
                      authenticationMethod: "custom",
                      claims: GetUserClaims(user));
                     return;
