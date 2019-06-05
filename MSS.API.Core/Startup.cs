@@ -42,15 +42,15 @@ namespace MSS.API.Core
             services.AddDapper(Configuration);
             services.AddEssentialService();
 
-            services.AddAuthentication("Bearer")//添加授权模式
-            .AddIdentityServerAuthentication(Options =>
-            {
+            //services.AddAuthentication("Bearer")//添加授权模式
+            //.AddIdentityServerAuthentication(Options =>
+            //{
 
-                Options.Authority = "http://localhost:5000";//授权服务器地址
-                Options.RequireHttpsMetadata = false;//是否是https
-                Options.JwtValidationClockSkew = TimeSpan.FromSeconds(0);//设置时间偏移
-                Options.ApiName = "MssService";
-            });
+            //    Options.Authority = "http://localhost:5000";//授权服务器地址
+            //    Options.RequireHttpsMetadata = false;//是否是https
+            //    Options.JwtValidationClockSkew = TimeSpan.FromSeconds(0);//设置时间偏移
+            //    Options.ApiName = "MssService";
+            //});
             //跨域 Cors
             services.AddCors(options =>
             {
@@ -68,7 +68,7 @@ namespace MSS.API.Core
             {
                 app.UseDeveloperExceptionPage();
             }
-            app.UseAuthentication();
+            //app.UseAuthentication();
             app.UseMvc();
         }
     }

@@ -39,11 +39,12 @@ namespace MSS.API.Gateway
                 option.ApiName = "MssService";
                 option.RequireHttpsMetadata = Convert.ToBoolean(Configuration["IdentityService:UseHttps"]);
                 option.SupportedTokens = SupportedTokens.Both;
-                option.ApiSecret = Configuration["IdentityService:ApiSecrets:MssService"];
+                //option.ApiSecret = Configuration["IdentityService:ApiSecrets:MssService"];
                 option.JwtValidationClockSkew = TimeSpan.FromSeconds(0);//…Ë÷√ ±º‰∆´“∆
+                
             };
 
-            services.AddAuthentication()
+            services.AddAuthentication("Bearer")
             .AddIdentityServerAuthentication("MssServiceKey", isaOptMss)
             ;
 

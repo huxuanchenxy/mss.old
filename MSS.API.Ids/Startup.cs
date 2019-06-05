@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -8,6 +10,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+//using Microsoft.Extensions.PlatformAbstractions;
 using MSS.API.Dao;
 
 namespace MSS.API.Ids
@@ -26,14 +29,20 @@ namespace MSS.API.Ids
         {
             //services.AddMvc(); 
             services.AddDapper(Configuration);
+
+            //string basePath = PlatformServices.Default.Application.ApplicationBasePath;
+
             services.AddIdentityServer()
+                //.AddSigningCredential(new X509Certificate2(Path.Combine(basePath,
+                //Configuration["Certificates:CerPath"]),
+                //Configuration["Certificates:Password"]))
             .AddInMemoryIdentityResources(Config.GetIdentityResources())
             .AddDeveloperSigningCredential()
-            .AddInMemoryClients(Config.GetClients())
              .AddInMemoryApiResources(Config.GetApiResources())
+            .AddInMemoryClients(Config.GetClients())
              //.AddTestUsers(Config.GetTestUser())
              .AddResourceOwnerValidator<ResourceOwnerPasswordValidator>()
-                .AddProfileService<ProfileService>()
+             //   .AddProfileService<ProfileService>()
             ;
 
 

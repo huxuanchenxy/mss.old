@@ -6,4 +6,3 @@ D:\fiyoung\project\mss\source\MSS\MSS.API.Model\obj\Debug\netstandard2.0\MSS.API
 D:\fiyoung\project\mss\source\MSS\MSS.API.Model\obj\Debug\netstandard2.0\MSS.API.Model.AssemblyInfo.cs
 D:\fiyoung\project\mss\source\MSS\MSS.API.Model\obj\Debug\netstandard2.0\MSS.API.Model.dll
 D:\fiyoung\project\mss\source\MSS\MSS.API.Model\obj\Debug\netstandard2.0\MSS.API.Model.pdb
-D:\fiyoung\project\mss\source\MSS\MSS.API.Model\obj\Debug\netstandard2.0\MSS.API.Model.csprojAssemblyReference.cache
