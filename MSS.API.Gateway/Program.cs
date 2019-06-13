@@ -24,7 +24,7 @@ namespace MSS.API.Gateway
                             .UseStartup<Startup>()
                                           .UseKestrel(options =>
                                           {
-                                              options.Listen(IPAddress.Loopback, 5800);
+                                              options.Listen(IPAddress.Any, 5800);
                                               //options.Listen(IPAddress.Any, 443, listenOptions =>
                                               //{
                                               //    listenOptions.UseHttps("server.pfx", "password");

@@ -15,7 +15,6 @@ namespace MSS.API.Core.V1.Controllers
     {
         private readonly IUserService _userService;
         public UserController(IUserService userService)
-
         {
             //_logger = logger;
             //_mediator = mediator;

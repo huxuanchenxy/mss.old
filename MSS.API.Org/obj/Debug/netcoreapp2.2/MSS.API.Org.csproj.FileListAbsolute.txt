@@ -1,0 +1,14 @@
+D:\fiyoung\project\mss\source\MSS\MSS.API.Org\bin\Debug\netcoreapp2.2\MSS.API.Org.deps.json
+D:\fiyoung\project\mss\source\MSS\MSS.API.Org\bin\Debug\netcoreapp2.2\MSS.API.Org.runtimeconfig.json
+D:\fiyoung\project\mss\source\MSS\MSS.API.Org\bin\Debug\netcoreapp2.2\MSS.API.Org.runtimeconfig.dev.json
+D:\fiyoung\project\mss\source\MSS\MSS.API.Org\bin\Debug\netcoreapp2.2\MSS.API.Org.dll
+D:\fiyoung\project\mss\source\MSS\MSS.API.Org\bin\Debug\netcoreapp2.2\MSS.API.Org.pdb
+D:\fiyoung\project\mss\source\MSS\MSS.API.Org\obj\Debug\netcoreapp2.2\MSS.API.Org.csproj.CoreCompileInputs.cache
+D:\fiyoung\project\mss\source\MSS\MSS.API.Org\obj\Debug\netcoreapp2.2\MSS.API.Org.RazorAssemblyInfo.cache
+D:\fiyoung\project\mss\source\MSS\MSS.API.Org\obj\Debug\netcoreapp2.2\MSS.API.Org.RazorAssemblyInfo.cs
+D:\fiyoung\project\mss\source\MSS\MSS.API.Org\obj\Debug\netcoreapp2.2\MSS.API.Org.AssemblyInfoInputs.cache
+D:\fiyoung\project\mss\source\MSS\MSS.API.Org\obj\Debug\netcoreapp2.2\MSS.API.Org.AssemblyInfo.cs
+D:\fiyoung\project\mss\source\MSS\MSS.API.Org\obj\Debug\netcoreapp2.2\MSS.API.Org.RazorTargetAssemblyInfo.cache
+D:\fiyoung\project\mss\source\MSS\MSS.API.Org\obj\Debug\netcoreapp2.2\MSS.API.Org.dll
+D:\fiyoung\project\mss\source\MSS\MSS.API.Org\obj\Debug\netcoreapp2.2\MSS.API.Org.pdb
+D:\fiyoung\project\mss\source\MSS\MSS.API.Org\obj\Debug\netcoreapp2.2\MSS.API.Org.csprojAssemblyReference.cache
