@@ -1,0 +1,68 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\fiyoung\\project\\mss\\source\\MSS\\MSS.Common.Consul\\MSS.Common.Consul.csproj": {}
+  },
+  "projects": {
+    "D:\\fiyoung\\project\\mss\\source\\MSS\\MSS.Common.Consul\\MSS.Common.Consul.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\fiyoung\\project\\mss\\source\\MSS\\MSS.Common.Consul\\MSS.Common.Consul.csproj",
+        "projectName": "MSS.Common.Consul",
+        "projectPath": "D:\\fiyoung\\project\\mss\\source\\MSS\\MSS.Common.Consul\\MSS.Common.Consul.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\fiyoung\\project\\mss\\source\\MSS\\MSS.Common.Consul\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.0": {
+          "dependencies": {
+            "Consul": {
+              "target": "Package",
+              "version": "[0.7.2.6, )"
+            },
+            "Microsoft.AspNetCore.All": {
+              "target": "Package",
+              "version": "[2.0.8, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

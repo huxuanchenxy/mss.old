@@ -1,0 +1,17 @@
+E:\Projects\DotNet Workspace\Manulife.DNC.MSAD\Manulife.DNC.MSAD.Common\bin\Debug\netcoreapp2.0\Manulife.DNC.MSAD.Common.deps.json
+E:\Projects\DotNet Workspace\Manulife.DNC.MSAD\Manulife.DNC.MSAD.Common\bin\Debug\netcoreapp2.0\Manulife.DNC.MSAD.Common.dll
+E:\Projects\DotNet Workspace\Manulife.DNC.MSAD\Manulife.DNC.MSAD.Common\bin\Debug\netcoreapp2.0\Manulife.DNC.MSAD.Common.pdb
+E:\Projects\DotNet Workspace\Manulife.DNC.MSAD\Manulife.DNC.MSAD.Common\obj\Debug\netcoreapp2.0\Manulife.DNC.MSAD.Common.csproj.CoreCompileInputs.cache
+E:\Projects\DotNet Workspace\Manulife.DNC.MSAD\Manulife.DNC.MSAD.Common\obj\Debug\netcoreapp2.0\Manulife.DNC.MSAD.Common.AssemblyInfoInputs.cache
+E:\Projects\DotNet Workspace\Manulife.DNC.MSAD\Manulife.DNC.MSAD.Common\obj\Debug\netcoreapp2.0\Manulife.DNC.MSAD.Common.AssemblyInfo.cs
+E:\Projects\DotNet Workspace\Manulife.DNC.MSAD\Manulife.DNC.MSAD.Common\obj\Debug\netcoreapp2.0\Manulife.DNC.MSAD.Common.dll
+E:\Projects\DotNet Workspace\Manulife.DNC.MSAD\Manulife.DNC.MSAD.Common\obj\Debug\netcoreapp2.0\Manulife.DNC.MSAD.Common.pdb
+E:\Projects\DotNet Workspace\Manulife.DNC.MSAD\Manulife.DNC.MSAD.Common\obj\Debug\netcoreapp2.0\Manulife.DNC.MSAD.Common.csprojAssemblyReference.cache
+D:\fiyoung\learn\Manulife.DNC.MSAD\Manulife.DNC.MSAD\Manulife.DNC.MSAD.Common\bin\Debug\netcoreapp2.0\Manulife.DNC.MSAD.Common.deps.json
+D:\fiyoung\learn\Manulife.DNC.MSAD\Manulife.DNC.MSAD\Manulife.DNC.MSAD.Common\bin\Debug\netcoreapp2.0\Manulife.DNC.MSAD.Common.dll
+D:\fiyoung\learn\Manulife.DNC.MSAD\Manulife.DNC.MSAD\Manulife.DNC.MSAD.Common\bin\Debug\netcoreapp2.0\Manulife.DNC.MSAD.Common.pdb
+D:\fiyoung\learn\Manulife.DNC.MSAD\Manulife.DNC.MSAD\Manulife.DNC.MSAD.Common\obj\Debug\netcoreapp2.0\Manulife.DNC.MSAD.Common.csproj.CoreCompileInputs.cache
+D:\fiyoung\learn\Manulife.DNC.MSAD\Manulife.DNC.MSAD\Manulife.DNC.MSAD.Common\obj\Debug\netcoreapp2.0\Manulife.DNC.MSAD.Common.AssemblyInfoInputs.cache
+D:\fiyoung\learn\Manulife.DNC.MSAD\Manulife.DNC.MSAD\Manulife.DNC.MSAD.Common\obj\Debug\netcoreapp2.0\Manulife.DNC.MSAD.Common.AssemblyInfo.cs
+D:\fiyoung\learn\Manulife.DNC.MSAD\Manulife.DNC.MSAD\Manulife.DNC.MSAD.Common\obj\Debug\netcoreapp2.0\Manulife.DNC.MSAD.Common.dll
+D:\fiyoung\learn\Manulife.DNC.MSAD\Manulife.DNC.MSAD\Manulife.DNC.MSAD.Common\obj\Debug\netcoreapp2.0\Manulife.DNC.MSAD.Common.pdb
