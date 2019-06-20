@@ -41,7 +41,7 @@
 
       "AuthenticationOptions": {
         "AuthenticationProviderKey": "MssServiceKey",
-        "AllowedScopes": []
+        "AllowedScopes": [ "MssService" ]
       }
     }
 
