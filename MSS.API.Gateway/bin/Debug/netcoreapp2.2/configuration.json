@@ -37,7 +37,12 @@
       ],
       "UpstreamPathTemplate": "/testapi/{url}",
       "UpstreamHttpMethod": [ "Get", "Post", "Delete", "Put" ],
-      "ReRoutesCaseSensitive": false
+      "ReRoutesCaseSensitive": false,
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "MssServiceKey",
+        "AllowedScopes": []
+      }
     }
 
   ],

@@ -33,20 +33,20 @@ namespace MSS.API.Gateway
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
-            //Action<IdentityServerAuthenticationOptions> isaOptMss = option =>
-            //{
-            //    option.Authority = Configuration["IdentityService:Uri"];
-            //    option.ApiName = "MssService";
-            //    option.RequireHttpsMetadata = Convert.ToBoolean(Configuration["IdentityService:UseHttps"]);
-            //    option.SupportedTokens = SupportedTokens.Both;
-            //    //option.ApiSecret = Configuration["IdentityService:ApiSecrets:MssService"];
-            //    option.JwtValidationClockSkew = TimeSpan.FromSeconds(0);//设置时间偏移
-                
-            //};
+            Action<IdentityServerAuthenticationOptions> isaOptMss = option =>
+            {
+                option.Authority = Configuration["IdentityService:Uri"];
+                option.ApiName = "MssService";
+                option.RequireHttpsMetadata = Convert.ToBoolean(Configuration["IdentityService:UseHttps"]);
+                option.SupportedTokens = SupportedTokens.Both;
+                //option.ApiSecret = Configuration["IdentityService:ApiSecrets:MssService"];
+                option.JwtValidationClockSkew = TimeSpan.FromSeconds(0);//设置时间偏移
 
-            //services.AddAuthentication("Bearer")
-            //.AddIdentityServerAuthentication("MssServiceKey", isaOptMss)
-            //;
+            };
+
+            services.AddAuthentication("Bearer")
+            .AddIdentityServerAuthentication("MssServiceKey", isaOptMss)
+            ;
 
             services.AddOcelot(Configuration);
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);

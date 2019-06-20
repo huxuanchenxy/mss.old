@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using System;
 
-namespace Manulife.DNC.MSAD.Common
+namespace MSS.Common.Consul
 {
     public static class AppBuilderExtensions
     {

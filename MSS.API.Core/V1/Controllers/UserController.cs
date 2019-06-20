@@ -27,8 +27,8 @@ namespace MSS.API.Core.V1.Controllers
         //[Authorize]
         public ActionResult<IEnumerable<string>> GetUserInfo()
         {
-            var resp = _userService.FindUser(1);
-            return new string[] { "value11111", "value222223333"};
+            var ret = HttpContext.Request.Host.Port + " " + DateTime.Now.ToString();
+            return new string[] { ret };
         }
 
 

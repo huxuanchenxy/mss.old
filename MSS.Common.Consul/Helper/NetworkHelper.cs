@@ -5,7 +5,7 @@ using System.Net.NetworkInformation;
 using System.Net.Sockets;
 using System.Text;
 
-namespace Manulife.DNC.MSAD.Common
+namespace MSS.Common.Consul
 {
     public class NetworkHelper
     {

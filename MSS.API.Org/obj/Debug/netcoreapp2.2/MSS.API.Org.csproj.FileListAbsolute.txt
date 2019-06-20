@@ -11,4 +11,3 @@ D:\fiyoung\project\mss\source\MSS\MSS.API.Org\obj\Debug\netcoreapp2.2\MSS.API.Or
 D:\fiyoung\project\mss\source\MSS\MSS.API.Org\obj\Debug\netcoreapp2.2\MSS.API.Org.RazorTargetAssemblyInfo.cache
 D:\fiyoung\project\mss\source\MSS\MSS.API.Org\obj\Debug\netcoreapp2.2\MSS.API.Org.dll
 D:\fiyoung\project\mss\source\MSS\MSS.API.Org\obj\Debug\netcoreapp2.2\MSS.API.Org.pdb
-D:\fiyoung\project\mss\source\MSS\MSS.API.Org\obj\Debug\netcoreapp2.2\MSS.API.Org.csprojAssemblyReference.cache
