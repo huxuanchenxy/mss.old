@@ -4,6 +4,6 @@ WORKDIR /app
 
 COPY . .
 
-EXPOSE 5800
+EXPOSE 3851
 
-ENTRYPOINT ["dotnet", "MSS.API.Gateway.dll"]
+ENTRYPOINT ["dotnet", "MSS.API.Core.dll","3851"]

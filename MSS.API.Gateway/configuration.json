@@ -43,12 +43,20 @@
         {
           "Host": "10.89.36.187",
           "Port": 3851
+        },
+        {
+          "Host": "10.89.36.187",
+          "Port": 3852
         }
       ],
       "UpstreamPathTemplate": "/testapi/{url}",
       "UpstreamHttpMethod": [ "Get", "Post", "Delete", "Put" ],
       "ReRoutesCaseSensitive": false,
-
+      "LoadBalancerOptions": {
+        "Type": "RoundRobin"
+      },
+      "ServiceName": "ServiceB",
+      "UseServiceDiscovery": true,
       "AuthenticationOptions": {
         "AuthenticationProviderKey": "MssServiceKey",
         "AllowedScopes": [ "MssService" ]

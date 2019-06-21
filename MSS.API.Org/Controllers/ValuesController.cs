@@ -3,18 +3,38 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Configuration;
+using MSS.Common.Consul;
 
 namespace MSS.API.Org.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/v1/[controller]")]
     [ApiController]
     public class ValuesController : ControllerBase
     {
-        // GET api/values
-        [HttpGet]
-        public ActionResult<IEnumerable<string>> Get()
+
+        public IConfiguration Configuration { get; }
+        public ValuesController(IConfiguration configuration)
         {
-            return new string[] { "value1", "value2" };
+            Configuration = configuration;
+        }
+
+        [HttpGet, Route("GetUserInfo")]
+        public ActionResult<IEnumerable<string>> GetUserInfo()
+        {
+            var ret = "ServiceB" + HttpContext.Request.Host.Port + " " + DateTime.Now.ToString();
+            return new string[] { ret };
+        }
+
+        [HttpGet, Route("GetConsul")]
+        public async Task<IActionResult> GetConsul()
+        {
+            string url = "http://" + Configuration["Consul:IP"] + ":" + Configuration["Consul:Port"];
+            var _services = await new ConsulServiceProvider().GetServicesAsync(url);
+            //string api_key = Constants.Redis_API_Key;
+            //var token = await _cache.GetStringAsync(api_key);
+            return new JsonResult(_services);
+            //return View();
         }
 
         // GET api/values/5

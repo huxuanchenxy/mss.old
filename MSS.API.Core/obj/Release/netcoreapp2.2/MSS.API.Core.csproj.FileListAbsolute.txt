@@ -21,4 +21,3 @@ D:\fiyoung\project\mss\source\MSS\MSS.API.Core\obj\Release\netcoreapp2.2\MSS.API
 D:\fiyoung\project\mss\source\MSS\MSS.API.Core\obj\Release\netcoreapp2.2\MSS.API.Core.csproj.CopyComplete
 D:\fiyoung\project\mss\source\MSS\MSS.API.Core\obj\Release\netcoreapp2.2\MSS.API.Core.dll
 D:\fiyoung\project\mss\source\MSS\MSS.API.Core\obj\Release\netcoreapp2.2\MSS.API.Core.pdb
-D:\fiyoung\project\mss\source\MSS\MSS.API.Core\bin\Release\netcoreapp2.2\appsettings.json
