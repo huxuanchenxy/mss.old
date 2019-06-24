@@ -72,6 +72,7 @@ namespace MSS.API.Gateway
 
             //app.UseStaticFiles();
             //app.UseCookiePolicy();
+            app.UseCors("AllowAll");
             app.UseOcelot();
             //app.UseMvc();
         }

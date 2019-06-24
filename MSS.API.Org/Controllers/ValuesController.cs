@@ -5,18 +5,18 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using MSS.Common.Consul;
+using MSS.Common.Consul.Controller;
 
 namespace MSS.API.Org.Controllers
 {
     [Route("api/v1/[controller]")]
     [ApiController]
-    public class ValuesController : ControllerBase
+    public class ValuesController : BaseController
     {
-
-        public IConfiguration Configuration { get; }
-        public ValuesController(IConfiguration configuration)
+        private readonly IServiceDiscoveryProvider ConsulServiceProvider;
+        public ValuesController(IServiceDiscoveryProvider consulServiceProvider)
         {
-            Configuration = configuration;
+            ConsulServiceProvider = consulServiceProvider;
         }
 
         [HttpGet, Route("GetUserInfo")]
@@ -29,8 +29,17 @@ namespace MSS.API.Org.Controllers
         [HttpGet, Route("GetConsul")]
         public async Task<IActionResult> GetConsul()
         {
-            string url = "http://" + Configuration["Consul:IP"] + ":" + Configuration["Consul:Port"];
-            var _services = await new ConsulServiceProvider().GetServicesAsync(url);
+            var _services = await ConsulServiceProvider.GetServicesAsync("ServiceA");
+            //string api_key = Constants.Redis_API_Key;
+            //var token = await _cache.GetStringAsync(api_key);
+            return new JsonResult(_services);
+            //return View();
+        }
+
+        [HttpGet, Route("GetConsul2")]
+        public async Task<IActionResult> GetConsul2()
+        {
+            var _services = await ConsulServiceProvider.GetServiceAsync("ServiceA");
             //string api_key = Constants.Redis_API_Key;
             //var token = await _cache.GetStringAsync(api_key);
             return new JsonResult(_services);

@@ -2,16 +2,14 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace MSS.API.Org.Controllers
+namespace MSS.Common.Consul.Controller
 {
-    [Produces("application/json")]
-    [Route("api/Health")]
-    public class HealthController : Controller
+    [Route("api/[controller]")]
+    public class BaseController : ControllerBase
     {
-        [HttpGet]
+        [HttpGet, Route("Health")]
         public IActionResult Get() => Ok("ok");
     }
 }

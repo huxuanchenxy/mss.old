@@ -20,7 +20,7 @@ namespace MSS.API.Org
 
         public static IWebHost BuildWebHost(string[] args)
         {
-            int port = int.Parse(args[0]);
+            int port = int.Parse(args[0]);//3861
             return WebHost.CreateDefaultBuilder(args)
 
                 .UseContentRoot(Directory.GetCurrentDirectory())
