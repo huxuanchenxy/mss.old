@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using Consul;
+using Newtonsoft.Json;
 
 namespace MSS.Common.Consul
 {
@@ -22,12 +23,15 @@ namespace MSS.Common.Consul
                 await Task.Delay(1000);
                 queryResult = await consuleClient.Health.Service("ServiceA", string.Empty, true);
             }
-
             var result = new List<string>();
             foreach (var serviceEntry in queryResult.Response)
             {
-                result.Add(serviceEntry.Service.Address + ":" + serviceEntry.Service.Port);
+                result.Add(serviceEntry.Service.Address + ":" + serviceEntry.Service.Port + ":" + serviceEntry.Service.Meta);
             }
+
+            var kvlist = await consuleClient.KV.Get("user");
+            
+            result.Add(JsonConvert.SerializeObject(kvlist.Response.Value));
             return result;
         }
     }

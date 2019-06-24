@@ -49,6 +49,12 @@ namespace MSS.API.Gateway
             ;
 
             services.AddOcelot(Configuration);
+
+            //¿çÓò Cors
+            services.AddCors(options =>
+            {
+                options.AddPolicy("AllowAll", p => p.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader().AllowCredentials());
+            });
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }
 

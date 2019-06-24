@@ -6,3 +6,4 @@ D:\fiyoung\project\mss\source\MSS\MSS.Common.Consul\obj\Debug\netcoreapp2.0\MSS.
 D:\fiyoung\project\mss\source\MSS\MSS.Common.Consul\bin\Debug\netcoreapp2.0\MSS.Common.Consul.pdb
 D:\fiyoung\project\mss\source\MSS\MSS.Common.Consul\obj\Debug\netcoreapp2.0\MSS.Common.Consul.dll
 D:\fiyoung\project\mss\source\MSS\MSS.Common.Consul\obj\Debug\netcoreapp2.0\MSS.Common.Consul.pdb
+D:\fiyoung\project\mss\source\MSS\MSS.Common.Consul\obj\Debug\netcoreapp2.0\MSS.Common.Consul.csprojAssemblyReference.cache

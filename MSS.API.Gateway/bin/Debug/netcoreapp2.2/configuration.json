@@ -55,6 +55,8 @@
       "LoadBalancerOptions": {
         "Type": "RoundRobin"
       },
+      "ServiceName": "ServiceB",
+      "UseServiceDiscovery": true,
       "AuthenticationOptions": {
         "AuthenticationProviderKey": "MssServiceKey",
         "AllowedScopes": [ "MssService" ]

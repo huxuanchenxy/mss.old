@@ -26,6 +26,7 @@ namespace MSS.Common.Consul
                 Name = serviceEntity.ServiceName,
                 Address = serviceEntity.IP,
                 Port = serviceEntity.Port,
+                
                 Tags = new[] { $"urlprefix-/{serviceEntity.ServiceName}" }//添加 urlprefix-/servicename 格式的 tag 标签，以便 Fabio 识别
             };
 
