@@ -12252,6 +12252,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "D:\\fiyoung\\project\\mss\\source\\MSS\\package": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

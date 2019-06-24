@@ -19,6 +19,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MSS.API.Org", "MSS.API.Org\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MSS.Common.Consul", "MSS.Common.Consul\MSS.Common.Consul.csproj", "{80A68251-D1F1-43E8-8FFC-773D24143554}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSS.API.ServiceD", "MSS.API.ServiceD\MSS.API.ServiceD.csproj", "{80439687-20E7-45FC-87DB-D6AB41517844}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{80A68251-D1F1-43E8-8FFC-773D24143554}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{80A68251-D1F1-43E8-8FFC-773D24143554}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{80A68251-D1F1-43E8-8FFC-773D24143554}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80439687-20E7-45FC-87DB-D6AB41517844}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80439687-20E7-45FC-87DB-D6AB41517844}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80439687-20E7-45FC-87DB-D6AB41517844}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80439687-20E7-45FC-87DB-D6AB41517844}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

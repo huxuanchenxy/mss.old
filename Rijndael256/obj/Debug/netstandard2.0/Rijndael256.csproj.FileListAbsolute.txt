@@ -24,3 +24,4 @@ D:\fiyoung\project\mss\source\MSS\Rijndael256\obj\Debug\netstandard2.0\Rijndael2
 D:\fiyoung\project\mss\source\MSS\Rijndael256\obj\Debug\netstandard2.0\Rijndael256.AssemblyInfo.cs
 D:\fiyoung\project\mss\source\MSS\Rijndael256\obj\Debug\netstandard2.0\Rijndael256.dll
 D:\fiyoung\project\mss\source\MSS\Rijndael256\obj\Debug\netstandard2.0\Rijndael256.pdb
+D:\fiyoung\project\mss\source\MSS\Rijndael256\obj\Debug\netstandard2.0\Rijndael256.csprojAssemblyReference.cache

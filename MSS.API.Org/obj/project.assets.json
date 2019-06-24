@@ -5418,7 +5418,7 @@
       },
       "MSS.Common.Consul/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v2.0",
+        "framework": ".NETCoreApp,Version=v2.2",
         "dependencies": {
           "Consul": "0.7.2.6",
           "Microsoft.AspNetCore.All": "2.0.8"
@@ -14437,6 +14437,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "D:\\fiyoung\\project\\mss\\source\\MSS\\package": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
