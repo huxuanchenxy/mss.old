@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\fiyoung\\project\\mss\\source\\MSS\\MSS.API.Gateway\\MSS.API.Gateway.csproj": {}
+    "D:\\fiyoung\\project\\mss\\source\\MSS\\MSS.Common.Consul\\MSS.Common.Consul.csproj": {}
   },
   "projects": {
-    "D:\\fiyoung\\project\\mss\\source\\MSS\\MSS.API.Gateway\\MSS.API.Gateway.csproj": {
+    "D:\\fiyoung\\project\\mss\\source\\MSS\\MSS.Common.Consul\\MSS.Common.Consul.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\fiyoung\\project\\mss\\source\\MSS\\MSS.API.Gateway\\MSS.API.Gateway.csproj",
-        "projectName": "MSS.API.Gateway",
-        "projectPath": "D:\\fiyoung\\project\\mss\\source\\MSS\\MSS.API.Gateway\\MSS.API.Gateway.csproj",
+        "projectUniqueName": "D:\\fiyoung\\project\\mss\\source\\MSS\\MSS.Common.Consul\\MSS.Common.Consul.csproj",
+        "projectName": "MSS.Common.Consul",
+        "projectPath": "D:\\fiyoung\\project\\mss\\source\\MSS\\MSS.Common.Consul\\MSS.Common.Consul.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "D:\\fiyoung\\project\\mss\\source\\MSS\\MSS.API.Gateway\\obj\\",
+        "outputPath": "D:\\fiyoung\\project\\mss\\source\\MSS\\MSS.Common.Consul\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -42,30 +42,19 @@
       "frameworks": {
         "netcoreapp2.2": {
           "dependencies": {
-            "IdentityServer4.AccessTokenValidation": {
+            "Consul": {
               "target": "Package",
-              "version": "[2.7.0, )"
+              "version": "[0.7.2.6, )"
             },
-            "Microsoft.AspNetCore.App": {
-              "suppressParent": "All",
+            "Microsoft.AspNetCore.All": {
               "target": "Package",
-              "version": "[2.2.0, )",
-              "autoReferenced": true
-            },
-            "Microsoft.AspNetCore.Razor.Design": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.2.0, )"
+              "version": "[2.0.8, )"
             },
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
               "target": "Package",
               "version": "[2.2.0, )",
               "autoReferenced": true
-            },
-            "Ocelot": {
-              "target": "Package",
-              "version": "[13.5.2, )"
             }
           },
           "imports": [

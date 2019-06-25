@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\fiyoung\\project\\mss\\source\\MSS\\MSS.API.Gateway\\MSS.API.Gateway.csproj": {}
+    "D:\\fiyoung\\project\\mss\\source\\MSS\\MSS.API.ServiceD\\MSS.API.ServiceD.csproj": {}
   },
   "projects": {
-    "D:\\fiyoung\\project\\mss\\source\\MSS\\MSS.API.Gateway\\MSS.API.Gateway.csproj": {
+    "D:\\fiyoung\\project\\mss\\source\\MSS\\MSS.API.ServiceD\\MSS.API.ServiceD.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\fiyoung\\project\\mss\\source\\MSS\\MSS.API.Gateway\\MSS.API.Gateway.csproj",
-        "projectName": "MSS.API.Gateway",
-        "projectPath": "D:\\fiyoung\\project\\mss\\source\\MSS\\MSS.API.Gateway\\MSS.API.Gateway.csproj",
+        "projectUniqueName": "D:\\fiyoung\\project\\mss\\source\\MSS\\MSS.API.ServiceD\\MSS.API.ServiceD.csproj",
+        "projectName": "MSS.API.ServiceD",
+        "projectPath": "D:\\fiyoung\\project\\mss\\source\\MSS\\MSS.API.ServiceD\\MSS.API.ServiceD.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "D:\\fiyoung\\project\\mss\\source\\MSS\\MSS.API.Gateway\\obj\\",
+        "outputPath": "D:\\fiyoung\\project\\mss\\source\\MSS\\MSS.API.ServiceD\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -42,9 +42,9 @@
       "frameworks": {
         "netcoreapp2.2": {
           "dependencies": {
-            "IdentityServer4.AccessTokenValidation": {
+            "MSS.Common.Consul": {
               "target": "Package",
-              "version": "[2.7.0, )"
+              "version": "[1.0.0, )"
             },
             "Microsoft.AspNetCore.App": {
               "suppressParent": "All",
@@ -62,10 +62,6 @@
               "target": "Package",
               "version": "[2.2.0, )",
               "autoReferenced": true
-            },
-            "Ocelot": {
-              "target": "Package",
-              "version": "[13.5.2, )"
             }
           },
           "imports": [
