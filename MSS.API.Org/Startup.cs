@@ -2,14 +2,19 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using CSRedis;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Filters;
+using Microsoft.Extensions.Caching.Distributed;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using MSS.Common.Consul;
+using MSS.Common.Web;
+using MSS.Web.Org.Provider;
 
 namespace MSS.API.Org
 {
@@ -26,7 +31,17 @@ namespace MSS.API.Org
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddTransient<IServiceDiscoveryProvider,ConsulServiceProvider>();
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+            //services.AddTransient<IActionFilter, GlobalActionFilter>();
+            services.AddTransient<IAPITokenDataProvider, APITokenDataProvider>();
+            services.AddRedis(Configuration);
+            services.AddTransient<IRedisMQ, RedisMQ>();
+
+            services.AddMvc(
+                //options =>
+                //{
+                //    options.Filters.Add<GlobalActionFilter>();
+                //}
+                ).SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
