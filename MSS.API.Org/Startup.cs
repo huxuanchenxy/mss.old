@@ -9,6 +9,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using MSS.Common.Consul;
 
 namespace MSS.API.Org
 {
@@ -24,11 +25,12 @@ namespace MSS.API.Org
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddTransient<IServiceDiscoveryProvider,ConsulServiceProvider>();
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        public void Configure(IApplicationBuilder app, IHostingEnvironment env, IApplicationLifetime lifetime)
         {
             if (env.IsDevelopment())
             {
@@ -36,6 +38,16 @@ namespace MSS.API.Org
             }
 
             app.UseMvc();
+            // register this service
+            ServiceEntity serviceEntity = new ServiceEntity
+            {
+                IP = NetworkHelper.LocalIPAddress,
+                Port = Convert.ToInt32(Configuration["Service:Port"]),
+                ServiceName = Configuration["Service:Name"],
+                ConsulIP = Configuration["Consul:IP"],
+                ConsulPort = Convert.ToInt32(Configuration["Consul:Port"])
+            };
+            app.RegisterConsul(lifetime, serviceEntity);
         }
     }
 }

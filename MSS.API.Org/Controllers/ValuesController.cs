@@ -3,18 +3,47 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Configuration;
+using MSS.Common.Consul;
+using MSS.Common.Consul.Controller;
 
 namespace MSS.API.Org.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/v1/[controller]")]
     [ApiController]
-    public class ValuesController : ControllerBase
+    public class ValuesController : BaseController
     {
-        // GET api/values
-        [HttpGet]
-        public ActionResult<IEnumerable<string>> Get()
+        private readonly IServiceDiscoveryProvider ConsulServiceProvider;
+        public ValuesController(IServiceDiscoveryProvider consulServiceProvider)
         {
-            return new string[] { "value1", "value2" };
+            ConsulServiceProvider = consulServiceProvider;
+        }
+
+        [HttpGet, Route("GetUserInfo")]
+        public ActionResult<IEnumerable<string>> GetUserInfo()
+        {
+            var ret = "ServiceB" + HttpContext.Request.Host.Port + " " + DateTime.Now.ToString();
+            return new string[] { ret };
+        }
+
+        [HttpGet, Route("GetConsul")]
+        public async Task<IActionResult> GetConsul()
+        {
+            var _services = await ConsulServiceProvider.GetServicesAsync("ServiceA");
+            //string api_key = Constants.Redis_API_Key;
+            //var token = await _cache.GetStringAsync(api_key);
+            return new JsonResult(_services);
+            //return View();
+        }
+
+        [HttpGet, Route("GetConsul2")]
+        public async Task<IActionResult> GetConsul2()
+        {
+            var _services = await ConsulServiceProvider.GetServiceAsync("ServiceA");
+            //string api_key = Constants.Redis_API_Key;
+            //var token = await _cache.GetStringAsync(api_key);
+            return new JsonResult(_services);
+            //return View();
         }
 
         // GET api/values/5

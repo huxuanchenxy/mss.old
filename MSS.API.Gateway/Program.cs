@@ -20,11 +20,12 @@ namespace MSS.API.Gateway
 
         public static IWebHost BuildWebHost(string[] args)
         {
+            int port = int.Parse(args[0]);
             return WebHost.CreateDefaultBuilder(args)
                             .UseStartup<Startup>()
                                           .UseKestrel(options =>
                                           {
-                                              options.Listen(IPAddress.Any, 5800);
+                                              options.Listen(IPAddress.Any, port);
                                               //options.Listen(IPAddress.Any, 443, listenOptions =>
                                               //{
                                               //    listenOptions.UseHttps("server.pfx", "password");

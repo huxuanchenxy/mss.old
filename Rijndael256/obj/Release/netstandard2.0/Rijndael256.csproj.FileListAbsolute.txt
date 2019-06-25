@@ -7,3 +7,12 @@ D:\fiyoung\project\Dyson\Rijndael256\obj\Release\netstandard2.0\Rijndael256.Asse
 D:\fiyoung\project\Dyson\Rijndael256\obj\Release\netstandard2.0\Rijndael256.AssemblyInfo.cs
 D:\fiyoung\project\Dyson\Rijndael256\obj\Release\netstandard2.0\Rijndael256.dll
 D:\fiyoung\project\Dyson\Rijndael256\obj\Release\netstandard2.0\Rijndael256.pdb
+D:\fiyoung\project\mss\source\MSS\Rijndael256\bin\Release\netstandard2.0\Rijndael256.deps.json
+D:\fiyoung\project\mss\source\MSS\Rijndael256\bin\Release\netstandard2.0\Rijndael256.dll
+D:\fiyoung\project\mss\source\MSS\Rijndael256\bin\Release\netstandard2.0\Rijndael256.pdb
+D:\fiyoung\project\mss\source\MSS\Rijndael256\obj\Release\netstandard2.0\Rijndael256.csprojAssemblyReference.cache
+D:\fiyoung\project\mss\source\MSS\Rijndael256\obj\Release\netstandard2.0\Rijndael256.csproj.CoreCompileInputs.cache
+D:\fiyoung\project\mss\source\MSS\Rijndael256\obj\Release\netstandard2.0\Rijndael256.AssemblyInfoInputs.cache
+D:\fiyoung\project\mss\source\MSS\Rijndael256\obj\Release\netstandard2.0\Rijndael256.AssemblyInfo.cs
+D:\fiyoung\project\mss\source\MSS\Rijndael256\obj\Release\netstandard2.0\Rijndael256.dll
+D:\fiyoung\project\mss\source\MSS\Rijndael256\obj\Release\netstandard2.0\Rijndael256.pdb

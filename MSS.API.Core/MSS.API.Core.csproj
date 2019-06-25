@@ -17,6 +17,7 @@
   <ItemGroup>
     <ProjectReference Include="..\MSS.API.Dao\MSS.API.Dao.csproj" />
     <ProjectReference Include="..\MSS.API.Model\MSS.API.Model.csproj" />
+    <ProjectReference Include="..\MSS.Common.Consul\MSS.Common.Consul.csproj" />
   </ItemGroup>
 
 </Project>

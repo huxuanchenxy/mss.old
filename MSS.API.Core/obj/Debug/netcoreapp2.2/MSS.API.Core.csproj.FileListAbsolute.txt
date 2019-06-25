@@ -19,3 +19,5 @@ D:\fiyoung\project\mss\source\MSS\MSS.API.Core\obj\Debug\netcoreapp2.2\MSS.API.C
 D:\fiyoung\project\mss\source\MSS\MSS.API.Core\obj\Debug\netcoreapp2.2\MSS.API.Core.pdb
 D:\fiyoung\project\mss\source\MSS\MSS.API.Core\bin\Debug\netcoreapp2.2\Rijndael256.dll
 D:\fiyoung\project\mss\source\MSS\MSS.API.Core\bin\Debug\netcoreapp2.2\Rijndael256.pdb
+D:\fiyoung\project\mss\source\MSS\MSS.API.Core\bin\Debug\netcoreapp2.2\MSS.Common.Consul.dll
+D:\fiyoung\project\mss\source\MSS\MSS.API.Core\bin\Debug\netcoreapp2.2\MSS.Common.Consul.pdb
