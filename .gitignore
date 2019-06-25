@@ -7,3 +7,11 @@
 /MSS.API.Org/bin
 /MSS.API.ServiceD/bin
 /MSS.Common.Consul/bin
+/MSS.API.Core/obj
+/MSS.API.Dao/obj
+/MSS.API.Gateway/obj
+/MSS.API.Ids/obj
+/MSS.API.Model/obj
+/MSS.API.Org/obj
+/MSS.API.ServiceD/obj
+/MSS.Common.Consul/obj

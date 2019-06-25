@@ -1,9 +1,0 @@
-D:\fiyoung\project\mss\source\MSS\MSS.Common.Consul\bin\Debug\netcoreapp2.0\MSS.Common.Consul.deps.json
-D:\fiyoung\project\mss\source\MSS\MSS.Common.Consul\bin\Debug\netcoreapp2.0\MSS.Common.Consul.dll
-D:\fiyoung\project\mss\source\MSS\MSS.Common.Consul\obj\Debug\netcoreapp2.0\MSS.Common.Consul.csproj.CoreCompileInputs.cache
-D:\fiyoung\project\mss\source\MSS\MSS.Common.Consul\obj\Debug\netcoreapp2.0\MSS.Common.Consul.AssemblyInfoInputs.cache
-D:\fiyoung\project\mss\source\MSS\MSS.Common.Consul\obj\Debug\netcoreapp2.0\MSS.Common.Consul.AssemblyInfo.cs
-D:\fiyoung\project\mss\source\MSS\MSS.Common.Consul\bin\Debug\netcoreapp2.0\MSS.Common.Consul.pdb
-D:\fiyoung\project\mss\source\MSS\MSS.Common.Consul\obj\Debug\netcoreapp2.0\MSS.Common.Consul.dll
-D:\fiyoung\project\mss\source\MSS\MSS.Common.Consul\obj\Debug\netcoreapp2.0\MSS.Common.Consul.pdb
-D:\fiyoung\project\mss\source\MSS\MSS.Common.Consul\obj\Debug\netcoreapp2.0\MSS.Common.Consul.csprojAssemblyReference.cache
