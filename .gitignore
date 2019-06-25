@@ -1,1 +1,9 @@
 /.vs
+/MSS.API.Core/bin
+/MSS.API.Dao/bin
+/MSS.API.Gateway/bin
+/MSS.API.Ids/bin
+/MSS.API.Model/bin
+/MSS.API.Org/bin
+/MSS.API.ServiceD/bin
+/MSS.Common.Consul/bin

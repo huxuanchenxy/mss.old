@@ -11,3 +11,4 @@ D:\fiyoung\project\mss\source\MSS\MSS.API.ServiceD\obj\Debug\netcoreapp2.2\MSS.A
 D:\fiyoung\project\mss\source\MSS\MSS.API.ServiceD\bin\Debug\netcoreapp2.2\MSS.API.ServiceD.pdb
 D:\fiyoung\project\mss\source\MSS\MSS.API.ServiceD\obj\Debug\netcoreapp2.2\MSS.API.ServiceD.dll
 D:\fiyoung\project\mss\source\MSS\MSS.API.ServiceD\obj\Debug\netcoreapp2.2\MSS.API.ServiceD.pdb
+D:\fiyoung\project\mss\source\MSS\MSS.API.ServiceD\obj\Debug\netcoreapp2.2\MSS.API.ServiceD.csprojAssemblyReference.cache

@@ -1,9 +1,5 @@
 {
   "version": 1,
-<<<<<<< HEAD
-  "dgSpecHash": "nbRLAwwKsoi/N24LbFRniiO66GDg8YF3PHwQEV8h3QDisyIuoV/UP3Hb2MfYvp3qnhDmINbhMAJyIhmkRlTX1w==",
-=======
   "dgSpecHash": "Op56vGyrXVqcUKx9b583RWQ9VZmkaCG8tSfAZprVEmUQl7UTrH5mgqRODcx9DsKK07XUNJ1zRLuT5OiYLzBSPw==",
->>>>>>> remotes/vsts/dev.consul
   "success": true
 }
