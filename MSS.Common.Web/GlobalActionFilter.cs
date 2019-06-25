@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using CSRedis;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc.Filters;
 using Microsoft.Extensions.Caching.Distributed;
 using Microsoft.Extensions.Configuration;
@@ -12,11 +13,9 @@ namespace MSS.Common.Web
     public class GlobalActionFilter: IActionFilter
     {
         private  IConfiguration Configuration { get; }
-        private readonly IDistributedCache Cache;
-        public GlobalActionFilter(IConfiguration configuration, IDistributedCache cache)
+        public GlobalActionFilter(IConfiguration configuration)
         {
             Configuration = configuration;
-            Cache = cache;
         }
 
         public void OnActionExecuted(ActionExecutedContext context)
@@ -46,15 +45,15 @@ namespace MSS.Common.Web
                 {
                     token = head.Replace("Bearer", "").Trim();
                 }
-                var redisinstance = Configuration["redis:Instance"];
-                var rediskey = redisinstance + token;
-                if (rediskey == "msseyJhbGciOiJSUzI1NiIsImtpZCI6ImMwZGM0NzZhY2ZjNTY3OGNjNTViYzc0ZmIzOWUwMzA3IiwidHlwIjoiSldUIn0.eyJuYmYiOjE1NjE0NDI5NTMsImV4cCI6MTU2MTQ0NjU1MywiaXNzIjoiaHR0cDovLzEwLjg5LjM2LjIwNDo1MDAwIiwiYXVkIjpbImh0dHA6Ly8xMC44OS4zNi4yMDQ6NTAwMC9yZXNvdXJjZXMiLCJNc3NTZXJ2aWNlIl0sImNsaWVudF9pZCI6InB3ZENsaWVudCIsInN1YiI6IjMiLCJhdXRoX3RpbWUiOjE1NjE0NDI5NTMsImlkcCI6ImxvY2FsIiwic2NvcGUiOlsiTXNzU2VydmljZSIsIm9mZmxpbmVfYWNjZXNzIl0sImFtciI6WyJjdXN0b20iXX0.x44sJslNhARwt4V777OzcC-aHVdijQe-k8TZXt7r2e5zhAYQEw-TS5IZGctbonZnPYEWf77USaHVkLAsaAianPTKzUhfuKU9DEBR6us3iIkcn0cHup7aIgamb6NGBwyg3wtaUkz6NFSQaa3Tr7GKgjZkN7Fd0QG3KkQoFvW-c46QsQ3A87t6MwhoTVr7Udk-7U3ShvZKhGeIs9Q075NR56X9U616ZNwR1EhXuhWHyw7J9bm3oI1DYewIV1w7Fko-PPVPJtIn9fbxpibIwK9IwKyjzymCKQmuPfEOy-BaskaEpqXEuJuEQzkak4f-np5jXdCL8rSACoTr4HQFJlIsGQ")
+
+                string userid = string.Empty;
+                using (var csredis = new CSRedisClient(Configuration["redis:ConnectionString"]))
                 {
-                    string sds = "";
-                    string ddddd = "";
+                    userid = csredis.Get(token);
                 }
-                var tmp = Cache.GetString("mss3");
-                var userid = Cache.GetString(rediskey);
+                    
+
+                
 
             }
 

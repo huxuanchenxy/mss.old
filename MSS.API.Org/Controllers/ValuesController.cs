@@ -18,12 +18,10 @@ namespace MSS.API.Org.Controllers
         private readonly IServiceDiscoveryProvider ConsulServiceProvider;
         private readonly IAPITokenDataProvider _APITokenDataProvider;
 
-        private readonly IRedisMQ _redis;
-        public ValuesController(IServiceDiscoveryProvider consulServiceProvider, IAPITokenDataProvider APITokenDataProvider, IRedisMQ redis)
+        public ValuesController(IServiceDiscoveryProvider consulServiceProvider, IAPITokenDataProvider APITokenDataProvider)
         {
             ConsulServiceProvider = consulServiceProvider;
             _APITokenDataProvider = APITokenDataProvider;
-            _redis = redis;
         }
 
         [HttpGet, Route("GetUserInfo")]

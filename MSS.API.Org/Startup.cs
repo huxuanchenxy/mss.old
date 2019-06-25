@@ -33,14 +33,12 @@ namespace MSS.API.Org
             services.AddTransient<IServiceDiscoveryProvider,ConsulServiceProvider>();
             //services.AddTransient<IActionFilter, GlobalActionFilter>();
             services.AddTransient<IAPITokenDataProvider, APITokenDataProvider>();
-            services.AddRedis(Configuration);
-            services.AddTransient<IRedisMQ, RedisMQ>();
 
             services.AddMvc(
-                //options =>
-                //{
-                //    options.Filters.Add<GlobalActionFilter>();
-                //}
+                options =>
+                {
+                    options.Filters.Add<GlobalActionFilter>();
+                }
                 ).SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }
 
