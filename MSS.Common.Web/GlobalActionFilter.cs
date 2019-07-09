@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc.Filters;
 using Microsoft.Extensions.Caching.Distributed;
 using Microsoft.Extensions.Configuration;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -21,18 +22,7 @@ namespace MSS.Common.Web
         public void OnActionExecuted(ActionExecutedContext context)
         {
             context.HttpContext.Response.Headers["Access-Control-Allow-Origin"] = "*";//解决拦截器添加后跨域不生效的问题
-            //if (!context.ModelState.IsValid)//验证参数的合法性问题。返回错误信息
-            //{
-            ///模型有效性验证失败处理逻辑...比如将提示信息返回
 
-
-            //context.Result = new ContentResult
-            //{
-            //    Content = stringBuilder.ToString(),
-            //    StatusCode = StatusCodes.Status200OK,
-            //    ContentType = "text/html;charset=utf-8"
-            //};
-            //}
             if (context.HttpContext.Response.StatusCode == StatusCodes.Status200OK)
             {
                 //记日志
@@ -47,13 +37,17 @@ namespace MSS.Common.Web
                 }
 
                 string userid = string.Empty;
+                UserTokenResponse userobj = new UserTokenResponse();
                 using (var csredis = new CSRedisClient(Configuration["redis:ConnectionString"]))
                 {
                     userid = csredis.Get(token);
+                    string userobjstr = csredis.Get(userid);
+                    userobj = JsonConvert.DeserializeObject<UserTokenResponse>(userobjstr);
                 }
-                    
+                var ip = NetworkHelper.LocalIPAddress;
+                var macadd = NetworkHelper.LocalMacAddress;
 
-                
+
 
             }
 

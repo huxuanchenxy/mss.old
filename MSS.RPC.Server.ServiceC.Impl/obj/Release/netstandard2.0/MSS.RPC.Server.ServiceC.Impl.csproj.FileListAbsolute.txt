@@ -1,0 +1,12 @@
+D:\fiyoung\project\mss\source\MSS\MSS.RPC.Server.ServiceC.Impl\bin\Release\netstandard2.0\MSS.RPC.Server.ServiceC.Impl.deps.json
+D:\fiyoung\project\mss\source\MSS\MSS.RPC.Server.ServiceC.Impl\bin\Release\netstandard2.0\MSS.RPC.Server.ServiceC.Impl.dll
+D:\fiyoung\project\mss\source\MSS\MSS.RPC.Server.ServiceC.Impl\bin\Release\netstandard2.0\MSS.RPC.Server.ServiceC.Impl.pdb
+D:\fiyoung\project\mss\source\MSS\MSS.RPC.Server.ServiceC.Impl\bin\Release\netstandard2.0\MSS.RPC.Prot.dll
+D:\fiyoung\project\mss\source\MSS\MSS.RPC.Server.ServiceC.Impl\bin\Release\netstandard2.0\MSS.RPC.Prot.pdb
+D:\fiyoung\project\mss\source\MSS\MSS.RPC.Server.ServiceC.Impl\obj\Release\netstandard2.0\MSS.RPC.Server.ServiceC.Impl.csprojAssemblyReference.cache
+D:\fiyoung\project\mss\source\MSS\MSS.RPC.Server.ServiceC.Impl\obj\Release\netstandard2.0\MSS.RPC.Server.ServiceC.Impl.csproj.CoreCompileInputs.cache
+D:\fiyoung\project\mss\source\MSS\MSS.RPC.Server.ServiceC.Impl\obj\Release\netstandard2.0\MSS.RPC.Server.ServiceC.Impl.AssemblyInfoInputs.cache
+D:\fiyoung\project\mss\source\MSS\MSS.RPC.Server.ServiceC.Impl\obj\Release\netstandard2.0\MSS.RPC.Server.ServiceC.Impl.AssemblyInfo.cs
+D:\fiyoung\project\mss\source\MSS\MSS.RPC.Server.ServiceC.Impl\obj\Release\netstandard2.0\MSS.RPC.Server.ServiceC.Impl.csproj.CopyComplete
+D:\fiyoung\project\mss\source\MSS\MSS.RPC.Server.ServiceC.Impl\obj\Release\netstandard2.0\MSS.RPC.Server.ServiceC.Impl.dll
+D:\fiyoung\project\mss\source\MSS\MSS.RPC.Server.ServiceC.Impl\obj\Release\netstandard2.0\MSS.RPC.Server.ServiceC.Impl.pdb

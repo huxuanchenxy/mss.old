@@ -20,7 +20,7 @@ namespace MSS.API.Ids
         {
             _userRepo = userRepo; //DI
         }
-       
+       //弃用
         public async Task ValidateAsync(ResourceOwnerPasswordValidationContext context)
         {
             try
@@ -54,7 +54,7 @@ namespace MSS.API.Ids
         {
             return new Claim[]
             {
-            new Claim("UserId", user.ID.ToString()),
+            new Claim("UserId", user.id.ToString()),
              //new Claim(JwtClaimTypes.Name,user.ClientId)
            
             };

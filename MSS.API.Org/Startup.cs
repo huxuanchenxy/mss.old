@@ -1,20 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using CSRedis;
-using Microsoft.AspNetCore.Builder;
+﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Filters;
-using Microsoft.Extensions.Caching.Distributed;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Logging;
-using Microsoft.Extensions.Options;
+using MSS.API.Operlog.Common;
 using MSS.Common.Consul;
-using MSS.Common.Web;
 using MSS.Web.Org.Provider;
+using System;
+
 
 namespace MSS.API.Org
 {
@@ -54,7 +47,7 @@ namespace MSS.API.Org
             // register this service
             ServiceEntity serviceEntity = new ServiceEntity
             {
-                IP = NetworkHelper.LocalIPAddress,
+                //IP = NetworkHelper.LocalIPAddress,
                 Port = Convert.ToInt32(Configuration["Service:Port"]),
                 ServiceName = Configuration["Service:Name"],
                 ConsulIP = Configuration["Consul:IP"],

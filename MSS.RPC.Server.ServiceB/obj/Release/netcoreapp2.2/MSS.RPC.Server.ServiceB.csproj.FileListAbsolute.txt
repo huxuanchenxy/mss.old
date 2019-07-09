@@ -1,0 +1,17 @@
+D:\fiyoung\project\mss\source\MSS\MSS.RPC.Server.ServiceB\bin\Release\netcoreapp2.2\MSS.RPC.Server.ServiceB.deps.json
+D:\fiyoung\project\mss\source\MSS\MSS.RPC.Server.ServiceB\bin\Release\netcoreapp2.2\MSS.RPC.Server.ServiceB.runtimeconfig.json
+D:\fiyoung\project\mss\source\MSS\MSS.RPC.Server.ServiceB\bin\Release\netcoreapp2.2\MSS.RPC.Server.ServiceB.runtimeconfig.dev.json
+D:\fiyoung\project\mss\source\MSS\MSS.RPC.Server.ServiceB\bin\Release\netcoreapp2.2\MSS.RPC.Server.ServiceB.dll
+D:\fiyoung\project\mss\source\MSS\MSS.RPC.Server.ServiceB\bin\Release\netcoreapp2.2\MSS.RPC.Server.ServiceB.pdb
+D:\fiyoung\project\mss\source\MSS\MSS.RPC.Server.ServiceB\bin\Release\netcoreapp2.2\MSS.RPC.Protocol.dll
+D:\fiyoung\project\mss\source\MSS\MSS.RPC.Server.ServiceB\bin\Release\netcoreapp2.2\Thrift.dll
+D:\fiyoung\project\mss\source\MSS\MSS.RPC.Server.ServiceB\bin\Release\netcoreapp2.2\MSS.RPC.Protocol.pdb
+D:\fiyoung\project\mss\source\MSS\MSS.RPC.Server.ServiceB\bin\Release\netcoreapp2.2\Thrift.pdb
+D:\fiyoung\project\mss\source\MSS\MSS.RPC.Server.ServiceB\bin\Release\netcoreapp2.2\Thrift.dll.config
+D:\fiyoung\project\mss\source\MSS\MSS.RPC.Server.ServiceB\obj\Release\netcoreapp2.2\MSS.RPC.Server.ServiceB.csprojAssemblyReference.cache
+D:\fiyoung\project\mss\source\MSS\MSS.RPC.Server.ServiceB\obj\Release\netcoreapp2.2\MSS.RPC.Server.ServiceB.csproj.CoreCompileInputs.cache
+D:\fiyoung\project\mss\source\MSS\MSS.RPC.Server.ServiceB\obj\Release\netcoreapp2.2\MSS.RPC.Server.ServiceB.AssemblyInfoInputs.cache
+D:\fiyoung\project\mss\source\MSS\MSS.RPC.Server.ServiceB\obj\Release\netcoreapp2.2\MSS.RPC.Server.ServiceB.AssemblyInfo.cs
+D:\fiyoung\project\mss\source\MSS\MSS.RPC.Server.ServiceB\obj\Release\netcoreapp2.2\MSS.RPC.Server.ServiceB.csproj.CopyComplete
+D:\fiyoung\project\mss\source\MSS\MSS.RPC.Server.ServiceB\obj\Release\netcoreapp2.2\MSS.RPC.Server.ServiceB.dll
+D:\fiyoung\project\mss\source\MSS\MSS.RPC.Server.ServiceB\obj\Release\netcoreapp2.2\MSS.RPC.Server.ServiceB.pdb

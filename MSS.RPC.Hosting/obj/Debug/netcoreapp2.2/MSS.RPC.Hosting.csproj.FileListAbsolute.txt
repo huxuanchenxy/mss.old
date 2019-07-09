@@ -1,0 +1,17 @@
+D:\fiyoung\project\mss\source\MSS\MSS.RPC.Hosting\bin\Debug\netcoreapp2.2\MSS.RPC.Hosting.deps.json
+D:\fiyoung\project\mss\source\MSS\MSS.RPC.Hosting\bin\Debug\netcoreapp2.2\MSS.RPC.Hosting.runtimeconfig.json
+D:\fiyoung\project\mss\source\MSS\MSS.RPC.Hosting\bin\Debug\netcoreapp2.2\MSS.RPC.Hosting.runtimeconfig.dev.json
+D:\fiyoung\project\mss\source\MSS\MSS.RPC.Hosting\bin\Debug\netcoreapp2.2\MSS.RPC.Hosting.dll
+D:\fiyoung\project\mss\source\MSS\MSS.RPC.Hosting\bin\Debug\netcoreapp2.2\MSS.RPC.Hosting.pdb
+D:\fiyoung\project\mss\source\MSS\MSS.RPC.Hosting\bin\Debug\netcoreapp2.2\MSS.RPC.Protocol.dll
+D:\fiyoung\project\mss\source\MSS\MSS.RPC.Hosting\bin\Debug\netcoreapp2.2\Thrift.dll
+D:\fiyoung\project\mss\source\MSS\MSS.RPC.Hosting\bin\Debug\netcoreapp2.2\MSS.RPC.Protocol.pdb
+D:\fiyoung\project\mss\source\MSS\MSS.RPC.Hosting\bin\Debug\netcoreapp2.2\Thrift.pdb
+D:\fiyoung\project\mss\source\MSS\MSS.RPC.Hosting\bin\Debug\netcoreapp2.2\Thrift.dll.config
+D:\fiyoung\project\mss\source\MSS\MSS.RPC.Hosting\obj\Debug\netcoreapp2.2\MSS.RPC.Hosting.csprojAssemblyReference.cache
+D:\fiyoung\project\mss\source\MSS\MSS.RPC.Hosting\obj\Debug\netcoreapp2.2\MSS.RPC.Hosting.csproj.CoreCompileInputs.cache
+D:\fiyoung\project\mss\source\MSS\MSS.RPC.Hosting\obj\Debug\netcoreapp2.2\MSS.RPC.Hosting.AssemblyInfoInputs.cache
+D:\fiyoung\project\mss\source\MSS\MSS.RPC.Hosting\obj\Debug\netcoreapp2.2\MSS.RPC.Hosting.AssemblyInfo.cs
+D:\fiyoung\project\mss\source\MSS\MSS.RPC.Hosting\obj\Debug\netcoreapp2.2\MSS.RPC.Hosting.csproj.CopyComplete
+D:\fiyoung\project\mss\source\MSS\MSS.RPC.Hosting\obj\Debug\netcoreapp2.2\MSS.RPC.Hosting.dll
+D:\fiyoung\project\mss\source\MSS\MSS.RPC.Hosting\obj\Debug\netcoreapp2.2\MSS.RPC.Hosting.pdb

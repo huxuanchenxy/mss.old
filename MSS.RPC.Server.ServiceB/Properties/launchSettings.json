@@ -1,0 +1,7 @@
+{
+  "profiles": {
+    "MSS.RPC.Server.ServiceB": {
+      "commandName": "Project"
+    }
+  }
+}

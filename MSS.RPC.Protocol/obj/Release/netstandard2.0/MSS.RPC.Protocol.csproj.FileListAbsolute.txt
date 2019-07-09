@@ -1,0 +1,13 @@
+D:\fiyoung\project\mss\source\MSS\MSS.RPC.Protocol\bin\Release\netstandard2.0\MSS.RPC.Protocol.deps.json
+D:\fiyoung\project\mss\source\MSS\MSS.RPC.Protocol\bin\Release\netstandard2.0\MSS.RPC.Protocol.dll
+D:\fiyoung\project\mss\source\MSS\MSS.RPC.Protocol\bin\Release\netstandard2.0\MSS.RPC.Protocol.pdb
+D:\fiyoung\project\mss\source\MSS\MSS.RPC.Protocol\bin\Release\netstandard2.0\Thrift.dll
+D:\fiyoung\project\mss\source\MSS\MSS.RPC.Protocol\bin\Release\netstandard2.0\Thrift.pdb
+D:\fiyoung\project\mss\source\MSS\MSS.RPC.Protocol\bin\Release\netstandard2.0\Thrift.dll.config
+D:\fiyoung\project\mss\source\MSS\MSS.RPC.Protocol\obj\Release\netstandard2.0\MSS.RPC.Protocol.csprojAssemblyReference.cache
+D:\fiyoung\project\mss\source\MSS\MSS.RPC.Protocol\obj\Release\netstandard2.0\MSS.RPC.Protocol.csproj.CoreCompileInputs.cache
+D:\fiyoung\project\mss\source\MSS\MSS.RPC.Protocol\obj\Release\netstandard2.0\MSS.RPC.Protocol.AssemblyInfoInputs.cache
+D:\fiyoung\project\mss\source\MSS\MSS.RPC.Protocol\obj\Release\netstandard2.0\MSS.RPC.Protocol.AssemblyInfo.cs
+D:\fiyoung\project\mss\source\MSS\MSS.RPC.Protocol\obj\Release\netstandard2.0\MSS.RPC.Protocol.csproj.CopyComplete
+D:\fiyoung\project\mss\source\MSS\MSS.RPC.Protocol\obj\Release\netstandard2.0\MSS.RPC.Protocol.dll
+D:\fiyoung\project\mss\source\MSS\MSS.RPC.Protocol\obj\Release\netstandard2.0\MSS.RPC.Protocol.pdb

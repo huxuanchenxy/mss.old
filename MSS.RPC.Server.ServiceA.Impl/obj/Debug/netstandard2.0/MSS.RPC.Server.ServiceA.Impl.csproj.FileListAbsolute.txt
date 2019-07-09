@@ -1,0 +1,15 @@
+D:\fiyoung\project\mss\source\MSS\MSS.RPC.Server.ServiceA.Impl\bin\Debug\netstandard2.0\MSS.RPC.Server.ServiceA.Impl.deps.json
+D:\fiyoung\project\mss\source\MSS\MSS.RPC.Server.ServiceA.Impl\bin\Debug\netstandard2.0\MSS.RPC.Server.ServiceA.Impl.dll
+D:\fiyoung\project\mss\source\MSS\MSS.RPC.Server.ServiceA.Impl\bin\Debug\netstandard2.0\MSS.RPC.Server.ServiceA.Impl.pdb
+D:\fiyoung\project\mss\source\MSS\MSS.RPC.Server.ServiceA.Impl\bin\Debug\netstandard2.0\MSS.RPC.Protocol.dll
+D:\fiyoung\project\mss\source\MSS\MSS.RPC.Server.ServiceA.Impl\bin\Debug\netstandard2.0\Thrift.dll
+D:\fiyoung\project\mss\source\MSS\MSS.RPC.Server.ServiceA.Impl\bin\Debug\netstandard2.0\MSS.RPC.Protocol.pdb
+D:\fiyoung\project\mss\source\MSS\MSS.RPC.Server.ServiceA.Impl\bin\Debug\netstandard2.0\Thrift.pdb
+D:\fiyoung\project\mss\source\MSS\MSS.RPC.Server.ServiceA.Impl\bin\Debug\netstandard2.0\Thrift.dll.config
+D:\fiyoung\project\mss\source\MSS\MSS.RPC.Server.ServiceA.Impl\obj\Debug\netstandard2.0\MSS.RPC.Server.ServiceA.Impl.csprojAssemblyReference.cache
+D:\fiyoung\project\mss\source\MSS\MSS.RPC.Server.ServiceA.Impl\obj\Debug\netstandard2.0\MSS.RPC.Server.ServiceA.Impl.csproj.CoreCompileInputs.cache
+D:\fiyoung\project\mss\source\MSS\MSS.RPC.Server.ServiceA.Impl\obj\Debug\netstandard2.0\MSS.RPC.Server.ServiceA.Impl.AssemblyInfoInputs.cache
+D:\fiyoung\project\mss\source\MSS\MSS.RPC.Server.ServiceA.Impl\obj\Debug\netstandard2.0\MSS.RPC.Server.ServiceA.Impl.AssemblyInfo.cs
+D:\fiyoung\project\mss\source\MSS\MSS.RPC.Server.ServiceA.Impl\obj\Debug\netstandard2.0\MSS.RPC.Server.ServiceA.Impl.csproj.CopyComplete
+D:\fiyoung\project\mss\source\MSS\MSS.RPC.Server.ServiceA.Impl\obj\Debug\netstandard2.0\MSS.RPC.Server.ServiceA.Impl.dll
+D:\fiyoung\project\mss\source\MSS\MSS.RPC.Server.ServiceA.Impl\obj\Debug\netstandard2.0\MSS.RPC.Server.ServiceA.Impl.pdb

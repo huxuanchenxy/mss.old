@@ -15,8 +15,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\..\..\..\shdq\MSS\apiservices\Operlog\MSS.API.Operlog.Common\MSS.API.Operlog.Common.csproj" />
     <ProjectReference Include="..\MSS.Common.Consul\MSS.Common.Consul.csproj" />
-    <ProjectReference Include="..\MSS.Common.Web\MSS.Common.Web.csproj" />
   </ItemGroup>
 
 </Project>
