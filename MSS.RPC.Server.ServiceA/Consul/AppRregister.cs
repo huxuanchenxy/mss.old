@@ -40,7 +40,7 @@ namespace MSS.RPC.Server.ServiceA
             {
                 consulClient.Agent.ServiceDeregister(registration.ID).Wait();//服务停止时取消注册
             });
-
+            
             return app;
         }
     }

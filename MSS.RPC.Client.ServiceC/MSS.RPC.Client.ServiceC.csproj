@@ -1,9 +1,13 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp2.2</TargetFramework>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="m5ygxof4.ijt~" />
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="apache-thrift-netcore" Version="0.9.3.2" />

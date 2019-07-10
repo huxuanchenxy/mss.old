@@ -70,8 +70,8 @@ namespace MSS.RPC.Server.ServiceA
             //// 添加健康检查路由地址
             //app.Map("/health", HealthMap);
 
-            //// 服务注册
-            //app.RegisterConsul(lifetime, healthService, consulService);
+            // 服务注册
+            app.RegisterConsul(lifetime, healthService, consulService);
 
             //// 启动Rpc服务
             //rpc.Start(int.Parse(Configuration["GrpcService:Port"]));

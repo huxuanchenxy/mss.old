@@ -1,9 +1,0 @@
-D:\fiyoung\project\mss\source\MSS\MSS.RPC.Prot\bin\Debug\netstandard2.0\MSS.RPC.Prot.deps.json
-D:\fiyoung\project\mss\source\MSS\MSS.RPC.Prot\bin\Debug\netstandard2.0\MSS.RPC.Prot.dll
-D:\fiyoung\project\mss\source\MSS\MSS.RPC.Prot\obj\Debug\netstandard2.0\MSS.RPC.Prot.csproj.CoreCompileInputs.cache
-D:\fiyoung\project\mss\source\MSS\MSS.RPC.Prot\obj\Debug\netstandard2.0\MSS.RPC.Prot.AssemblyInfoInputs.cache
-D:\fiyoung\project\mss\source\MSS\MSS.RPC.Prot\obj\Debug\netstandard2.0\MSS.RPC.Prot.AssemblyInfo.cs
-D:\fiyoung\project\mss\source\MSS\MSS.RPC.Prot\bin\Debug\netstandard2.0\MSS.RPC.Prot.pdb
-D:\fiyoung\project\mss\source\MSS\MSS.RPC.Prot\obj\Debug\netstandard2.0\MSS.RPC.Prot.dll
-D:\fiyoung\project\mss\source\MSS\MSS.RPC.Prot\obj\Debug\netstandard2.0\MSS.RPC.Prot.pdb
-D:\fiyoung\project\mss\source\MSS\MSS.RPC.Prot\obj\Debug\netstandard2.0\MSS.RPC.Prot.csprojAssemblyReference.cache
