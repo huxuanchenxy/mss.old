@@ -7,3 +7,9 @@
 /MSS.API.Org/bin
 /MSS.API.ServiceD/bin
 /MSS.Common.Consul/bin
+# compiled files
+obj
+bin
+# user files
+.user
+.suo
