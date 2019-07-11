@@ -58,7 +58,8 @@ namespace MSS.Common.Consul
             var services = data.Response.Values.Where(s => s.Service.Equals(serviceName, StringComparison.OrdinalIgnoreCase));
             if (!services.Any())
             {
-                Console.WriteLine("找不到服务的实例");
+                //Console.WriteLine("找不到服务的实例");
+                throw new ApplicationException("找不到服务的实例");
             }
             else
             {
