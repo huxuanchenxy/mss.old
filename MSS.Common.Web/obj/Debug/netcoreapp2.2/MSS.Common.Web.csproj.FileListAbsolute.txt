@@ -1,0 +1,8 @@
+D:\fiyoung\project\mss\source\MSS\MSS.Common.Web\bin\Debug\netcoreapp2.2\MSS.Common.Web.deps.json
+D:\fiyoung\project\mss\source\MSS\MSS.Common.Web\bin\Debug\netcoreapp2.2\MSS.Common.Web.dll
+D:\fiyoung\project\mss\source\MSS\MSS.Common.Web\bin\Debug\netcoreapp2.2\MSS.Common.Web.pdb
+D:\fiyoung\project\mss\source\MSS\MSS.Common.Web\obj\Debug\netcoreapp2.2\MSS.Common.Web.csproj.CoreCompileInputs.cache
+D:\fiyoung\project\mss\source\MSS\MSS.Common.Web\obj\Debug\netcoreapp2.2\MSS.Common.Web.AssemblyInfoInputs.cache
+D:\fiyoung\project\mss\source\MSS\MSS.Common.Web\obj\Debug\netcoreapp2.2\MSS.Common.Web.AssemblyInfo.cs
+D:\fiyoung\project\mss\source\MSS\MSS.Common.Web\obj\Debug\netcoreapp2.2\MSS.Common.Web.dll
+D:\fiyoung\project\mss\source\MSS\MSS.Common.Web\obj\Debug\netcoreapp2.2\MSS.Common.Web.pdb

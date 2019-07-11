@@ -1,0 +1,215 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\fiyoung\\project\\mss\\source\\MSS\\MSS.RPC.Server\\MSS.RPC.Server.csproj": {}
+  },
+  "projects": {
+    "D:\\fiyoung\\project\\mss\\source\\MSS\\MSS.RPC.Protocol\\MSS.RPC.Protocol.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\fiyoung\\project\\mss\\source\\MSS\\MSS.RPC.Protocol\\MSS.RPC.Protocol.csproj",
+        "projectName": "MSS.RPC.Protocol",
+        "projectPath": "D:\\fiyoung\\project\\mss\\source\\MSS\\MSS.RPC.Protocol\\MSS.RPC.Protocol.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\fiyoung\\project\\mss\\source\\MSS\\MSS.RPC.Protocol\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\fiyoung\\project\\mss\\source\\MSS\\package": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "D:\\fiyoung\\project\\mss\\source\\MSS\\Thrift\\Thrift.csproj": {
+                "projectPath": "D:\\fiyoung\\project\\mss\\source\\MSS\\Thrift\\Thrift.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "D:\\fiyoung\\project\\mss\\source\\MSS\\MSS.RPC.Server\\MSS.RPC.Server.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\fiyoung\\project\\mss\\source\\MSS\\MSS.RPC.Server\\MSS.RPC.Server.csproj",
+        "projectName": "MSS.RPC.Server",
+        "projectPath": "D:\\fiyoung\\project\\mss\\source\\MSS\\MSS.RPC.Server\\MSS.RPC.Server.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\fiyoung\\project\\mss\\source\\MSS\\MSS.RPC.Server\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\fiyoung\\project\\mss\\source\\MSS\\package": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "D:\\fiyoung\\project\\mss\\source\\MSS\\MSS.RPC.Protocol\\MSS.RPC.Protocol.csproj": {
+                "projectPath": "D:\\fiyoung\\project\\mss\\source\\MSS\\MSS.RPC.Protocol\\MSS.RPC.Protocol.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "D:\\fiyoung\\project\\mss\\source\\MSS\\Thrift\\Thrift.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\fiyoung\\project\\mss\\source\\MSS\\Thrift\\Thrift.csproj",
+        "projectName": "Thrift",
+        "projectPath": "D:\\fiyoung\\project\\mss\\source\\MSS\\Thrift\\Thrift.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\fiyoung\\project\\mss\\source\\MSS\\Thrift\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\fiyoung\\project\\mss\\source\\MSS\\package": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.AspNetCore": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Console": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Debug": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "System.IO.Pipes": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Net.Http.WinHttpHandler": {
+              "target": "Package",
+              "version": "[4.4.0, )"
+            },
+            "System.Net.NameResolution": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Net.Requests": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Net.Security": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

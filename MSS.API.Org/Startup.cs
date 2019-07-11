@@ -1,15 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Builder;
+﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Logging;
-using Microsoft.Extensions.Options;
+using MSS.API.Operlog.Common;
 using MSS.Common.Consul;
+using MSS.Web.Org.Provider;
+using System;
+
 
 namespace MSS.API.Org
 {
@@ -26,7 +24,15 @@ namespace MSS.API.Org
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddTransient<IServiceDiscoveryProvider,ConsulServiceProvider>();
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+            //services.AddTransient<IActionFilter, GlobalActionFilter>();
+            services.AddTransient<IAPITokenDataProvider, APITokenDataProvider>();
+
+            services.AddMvc(
+                options =>
+                {
+                    options.Filters.Add<GlobalActionFilter>();
+                }
+                ).SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -41,7 +47,7 @@ namespace MSS.API.Org
             // register this service
             ServiceEntity serviceEntity = new ServiceEntity
             {
-                IP = NetworkHelper.LocalIPAddress,
+                //IP = NetworkHelper.LocalIPAddress,
                 Port = Convert.ToInt32(Configuration["Service:Port"]),
                 ServiceName = Configuration["Service:Name"],
                 ConsulIP = Configuration["Consul:IP"],

@@ -6,7 +6,6 @@ using MSS.API.Dao;
 using MSS.API.Model.Data;
 using System.Threading.Tasks;
 using Dapper;
-using Rijndael256;
 
 namespace MSS.API.Dao.Implement
 {
