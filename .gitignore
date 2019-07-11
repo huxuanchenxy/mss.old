@@ -37,3 +37,5 @@
 /MSS.RPC.Server.ServiceC.Hosting2/obj
 /MSS.RPC.Server.ServiceC.Impl/bin
 /MSS.RPC.Server.ServiceC.Impl/obj
+/Thrift/obj
+/Thrift/bin
