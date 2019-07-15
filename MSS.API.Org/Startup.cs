@@ -3,10 +3,9 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using MSS.API.Operlog.Common;
+using Microsoft.Extensions.Options;
 using MSS.Common.Consul;
 using MSS.Web.Org.Provider;
-using System;
 
 
 namespace MSS.API.Org
@@ -23,20 +22,16 @@ namespace MSS.API.Org
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddTransient<IServiceDiscoveryProvider,ConsulServiceProvider>();
+            //services.AddTransient<IServiceDiscoveryProvider,ConsulServiceProvider>();
             //services.AddTransient<IActionFilter, GlobalActionFilter>();
             services.AddTransient<IAPITokenDataProvider, APITokenDataProvider>();
-
-            services.AddMvc(
-                options =>
-                {
-                    options.Filters.Add<GlobalActionFilter>();
-                }
-                ).SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+            services.AddConsulService(Configuration);
+            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env, IApplicationLifetime lifetime)
+        public void Configure(IApplicationBuilder app, IHostingEnvironment env, IApplicationLifetime lifetime
+            ,IOptions<ConsulServiceEntity> consulService)
         {
             if (env.IsDevelopment())
             {
@@ -54,6 +49,7 @@ namespace MSS.API.Org
             //    ConsulPort = Convert.ToInt32(Configuration["Consul:Port"])
             //};
             //app.RegisterConsul(lifetime, serviceEntity);
+            app.RegisterConsul(lifetime, consulService);
         }
     }
 }

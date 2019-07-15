@@ -6,10 +6,10 @@ using System.Net.Http.Headers;
 using System.Text;
 using System.Threading.Tasks;
 using CSRedis;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using MSS.Common.Consul;
-using MSS.Common.Consul.Controller;
 using MSS.Web.Org.Provider;
 using Newtonsoft.Json;
 
@@ -17,7 +17,7 @@ namespace MSS.API.Org.Controllers
 {
     [Route("api/v1/[controller]")]
     [ApiController]
-    public class ValuesController : BaseController
+    public class ValuesController : ControllerBase
     {
         private readonly IServiceDiscoveryProvider ConsulServiceProvider;
         private readonly IAPITokenDataProvider _APITokenDataProvider;

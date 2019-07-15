@@ -12,11 +12,7 @@
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
     <PackageReference Include="Microsoft.Extensions.Caching.Abstractions" Version="2.2.0" />
     <PackageReference Include="Microsoft.Extensions.Caching.Redis" Version="2.2.0" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\..\..\..\..\shdq\MSS\apiservices\Operlog\MSS.API.Operlog.Common\MSS.API.Operlog.Common.csproj" />
-    <ProjectReference Include="..\MSS.Common.Consul\MSS.Common.Consul.csproj" />
+    <PackageReference Include="MSS.Common.Consul" Version="1.0.3" />
   </ItemGroup>
 
 </Project>
